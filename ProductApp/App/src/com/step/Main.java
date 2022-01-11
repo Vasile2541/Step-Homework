@@ -20,7 +20,7 @@ public class Main {
                         case 1:
                             show.menuProduct();
                             do {
-                                show.menu();
+                                show.menuProduct();
                                 innerOneMoreTime = false;
                                 try {
                                     int input2 = sc.nextInt();   sc.nextLine();

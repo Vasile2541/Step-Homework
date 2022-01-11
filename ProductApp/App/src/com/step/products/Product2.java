@@ -3,9 +3,23 @@ package com.step.products;
 import com.step.menu.IProduct;
 
 public class Product2 implements IProduct {
+
     private String productName ;
     private double productPrice ;
     private String productProducer ;
+
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public double getProductPrice() {
+        return productPrice;
+    }
+
+    public String getProductProducer() {
+        return productProducer;
+    }
 
     @Override
     public void setProductName(String productName) {
@@ -18,7 +32,8 @@ public class Product2 implements IProduct {
     }
 
     @Override
-    public void setProductProducer(String productName) {
-        this.productName  = productName;
+    public void setProductProducer(String productProducer) {
+        this.productProducer  = productProducer;
     }
+
 }
