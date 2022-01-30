@@ -11,7 +11,10 @@ public class Calculator {
     return firstNumber * secondNumber;
   }
   public double divide(int firstNumber, int secondNumber){
-    return (double)firstNumber / secondNumber;
+    if (secondNumber == 0) return 0;
+    else {
+      return (double) firstNumber / secondNumber;
+    }
   }
 
 }
